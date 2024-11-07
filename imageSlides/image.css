@@ -1,0 +1,46 @@
+.slides{
+    width: 400px;
+    height: 266px;
+    margin: 30px auto;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.404);
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative;
+}
+.fafi{
+    position: absolute;
+    z-index: 10;
+    cursor: pointer;
+    color: gray;
+}
+img{
+    width: 100%;
+    max-height: auto;
+    object-fit: cover;
+}
+.right{
+    top: 50%;
+    right: 20px;
+}
+
+.left{
+    top: 50%;
+    left: 20px;
+}
+.left ,.right{
+    background-color: white;
+    padding: 8px;
+    border-radius: 15px;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.404);
+}
+.icons{
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    gap: 3px;
+}
+
+.white{
+    color: white;
+}
